@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The World is Heading Towards Nguyen Thanh Cong</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #ff6a00, #ee0979);
+            color: white;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 3em;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-top: 20px;
+            color: #f0f0f0;
+        }
+
+        /* Floating animation effect for fun */
+        .floating {
+            position: absolute;
+            font-size: 2em;
+            animation: float 6s infinite linear;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(-20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes float {
+            0% { transform: translateY(100vh) translateX(0); }
+            50% { transform: translateY(50vh) translateX(50vw); }
+            100% { transform: translateY(-10vh) translateX(100vw); }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>The Whole World is Heading Towards Nguyen Thanh Cong</h1>
+        <p>Embrace the journey and watch the world move!</p>
+    </div>
+
+    <!-- Optional floating elements -->
+    <div class="floating" style="top: 10%; left: 5%;">🌍</div>
+    <div class="floating" style="top: 80%; left: 30%;">🚀</div>
+    <div class="floating" style="top: 50%; left: 70%;">✨</div>
+</body>
+</html>
